@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>happynewyear</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.6/dist/global/Rx.umd.js"></script>
+    <script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+</head>
+<body>
+<div class="container-fluid backgr">
+    <div class="row upper"><span class="badge badge-pill badge-success">Santa Claus is coming!</span></div>
+    <div class="row">
+        <div class="col-4">
+            <button type="button" class="btn btn-success btn-lg" onclick="change(this)" id="prediction_btn">Get a prediction for 2020</button>
+                <div id="result_prediction_btn"></div>
+            </div>
+        <div class="col-4">
+            <button type="button" class="btn btn-success btn-lg" onclick="change(this)" id="checklist_btn">New Year Checklist</button>
+            <div id="result_checklist_btn"></div>
+        </div>
+        <div class="col-4">
+        <button type="button" class="btn btn-success btn-lg" onclick="change(this)" id="movie_btn">What movie am I watching today?</button>
+            <div id="result_movie_btn"></div>
+        </div>
+    </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

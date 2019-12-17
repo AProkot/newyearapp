@@ -1,0 +1,22 @@
+{
+  "name": "gridcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "fs": "0.0.1-security",
+    "node-cmd": "^3.0.0",
+    "node-powershell": "^4.0.0",
+    "node-ssh": "^6.0.0",
+    "node-ssh-exec": "^0.1.1",
+    "random-int": "^2.0.1",
+    "request": "^2.88.0",
+    "utf-8": "^2.0.0"
+  }
+}

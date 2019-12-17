@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+.backgr {
+    background-image: url('https://image.freepik.com/free-vector/_24381-754.jpg');
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    height: 1200px;
+}
+
+.upper{
+    height: 200px;
+}
+
+button{
+    position: auto;
+    margin: auto;
+}
+
+.badge{
+    width: 33%;
+    height: 60px;
+    position: auto;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.result{
+    width:95%;
+    height: 600px;
+    background-image: url("http://pngimg.com/uploads/sticky_note/sticky_note_PNG18931.png");
+    background-position: left top;
+    font-family: 'Mansalva', cursive;
+    color: #0d045c;
+}
+
+div #data{
+   padding: 100px;
+    width: 90%;
+    height: 100%;
+}
