@@ -7,7 +7,7 @@ app.use(express.static(__dirname))
 var request = require('request');
 const urlencodedParser = bodyParser.urlencoded({extended: false});
 
-let port = 80
+const port = process.env.PORT||80;
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
 })
